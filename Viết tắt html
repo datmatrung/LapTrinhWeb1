@@ -1,0 +1,10 @@
+1. Nút tab dùng để phát sinh code
+2. Dấu ! dùng để phát sinh văn bản html5
+3. Dấu + dùng để phát sinh những thẻ cùng cấp
+4. Dấu * dùng để phát sinh thẻ nhiều lần
+5. Dấu > dùng để phát sinh thẻ con
+6. Dấu ^ dùng để nhảy lên một cấp
+7. Dấu . dùng để phát sinh class
+8. Dấu # dùng để phát sinh id
+9. Dấu [] dùng để thêm thuộc tính trong thẻ
+10. Dấu {} dùng để thêm văn bản giữa thẻ mở và đóng
