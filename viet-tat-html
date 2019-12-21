@@ -6,5 +6,6 @@
 6. Dấu ^ dùng để nhảy lên một cấp
 7. Dấu . dùng để phát sinh class
 8. Dấu # dùng để phát sinh id
-9. Dấu [] dùng để thêm thuộc tính trong thẻ
-10. Dấu {} dùng để thêm văn bản giữa thẻ mở và đóng
+9. Dấu $ dùng để đánh số thứ tự bắt đầu từ 1
+10. Dấu [] dùng để thêm thuộc tính trong thẻ
+11. Dấu {} dùng để thêm văn bản giữa thẻ mở và đóng
