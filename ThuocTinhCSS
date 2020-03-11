@@ -9,7 +9,6 @@ text
         underline
         overline
         line-through
-        blink
     text-indent: 30px;
     
 list (ol, ul)
@@ -41,7 +40,3 @@ table
     border-collapse
     text-align
     vertical-align
-    
-        
-    
-  
