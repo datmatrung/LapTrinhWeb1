@@ -25,9 +25,6 @@ list
     list-style-image:
         none (default)
         url
-    list-style-position
-        outside (default)
-        inside
 
 link
     a:link
