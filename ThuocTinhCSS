@@ -24,7 +24,7 @@ list
         upper-latin
     list-style-image:
         none (default)
-        (url='');
+        url
     list-style-position
         outside (default)
         inside
