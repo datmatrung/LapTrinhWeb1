@@ -31,9 +31,9 @@ list
 
 link
     a:link
-    a:visited
     a:hover
     a:active
+    a:visited
 
 table
     background-color
