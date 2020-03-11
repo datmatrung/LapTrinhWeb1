@@ -1,0 +1,47 @@
+text
+    text-align
+        left (default)
+        right
+        center
+        justify
+    text-decoration
+        none (default)
+        underline
+        overline
+        line-through
+        blink
+    text-indent: 30px;
+    
+list (ol, ul)
+    list-style-type
+        disc (default)
+        circle
+        square
+        decimal
+        lower-roman
+        upper-roman
+        lower-latin
+        upper-latin
+    list-style-image:
+        none (default)
+        (url='');
+    list-style-position
+        outside (default)
+        inside
+
+link
+    a:link
+    a:visited
+    a:hover
+    a:active
+
+table
+    background-color
+    border-spacing
+    border-collapse
+    text-align
+    vertical-align
+    
+        
+    
+  
