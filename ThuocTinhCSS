@@ -33,7 +33,9 @@ link
     a:visited
 
 table
+    width
+    height
+    text-align
     background-color
     border-spacing
     border-collapse
-    text-align
