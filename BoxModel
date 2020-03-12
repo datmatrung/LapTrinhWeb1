@@ -1,7 +1,12 @@
 block element: div, h1-h6, p
 inline element: b, i, span...
-width box model: margin + border + padding
-margin, padding, border-width: 
+box model:
+    margin (khoảng cách bên ngoài)
+    border (đường viền)
+    padding (khoảng cách bên trong)
+overflow: auto;
+float: left;
+margin, padding: 
     5px                 //top right bottom left: 5px
     5px 10px            //top bottom: 5px, right left: 10px
     5px 10px 15px       //top: 5px, right left: 10px, bottom: 15px
@@ -11,15 +16,14 @@ border:
     border-style
     border-color
 border-style:
-    solid
-    double
-    dotted
-    dashed
+    solid   (nét liền)
+    double  (nét đôi)
+    dotted  (nét chấm)
+    dashed  (nét gạch)
 backround-image: url();
 backround-repeat:
     repeat (default)
     repeat-x
     repeat-y
     no-repeat
-overflow: auto;
-float: left;
+https://i0.wp.com/bitcoinvietnam.co/wp-content/uploads/2018/11/Bitcoin-investment-favicon-1.png
