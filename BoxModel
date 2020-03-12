@@ -1,5 +1,5 @@
-block element: div, h1-h6, p
-inline element: b, i, span...
+block element: div, p, h1-h6
+inline element: các loại thẻ khác
 box model:
     margin (khoảng cách bên ngoài)
     border (đường viền)
@@ -26,4 +26,3 @@ backround-repeat:
     repeat-x
     repeat-y
     no-repeat
-https://i0.wp.com/bitcoinvietnam.co/wp-content/uploads/2018/11/Bitcoin-investment-favicon-1.png
