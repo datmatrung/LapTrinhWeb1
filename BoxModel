@@ -1,0 +1,26 @@
+box model:
+    margin
+    border
+    padding
+margin, padding, border-width: 
+    5px                 //top right bottom left: 5px
+    5px 10px            //top bottom: 5px, right left: 10px
+    5px 10px 15px       //top: 5px, right left: 10px, bottom: 15px
+    5px 10px 15px 20px  //top: 5px, right: 10px, bottom: 15px, left: 20px
+border:
+    border-width
+    border-style
+    border-color
+border-style:
+    solid
+    double
+    dotted
+    dashed
+backround-image: url();
+backround-repeat:
+    repeat (default)
+    repeat-x
+    repeat-y
+    no-repeat
+overflow: auto;
+float: left;
