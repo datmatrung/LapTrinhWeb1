@@ -1,7 +1,6 @@
-box model:
-    margin
-    border
-    padding
+block element: div, h1-h6, p
+inline element: b, i, span...
+width box model: margin + border + padding
 margin, padding, border-width: 
     5px                 //top right bottom left: 5px
     5px 10px            //top bottom: 5px, right left: 10px
