@@ -11,6 +11,7 @@ margin, padding:
     5px 10px            //top bottom: 5px, right left: 10px
     5px 10px 15px       //top: 5px, right left: 10px, bottom: 15px
     5px 10px 15px 20px  //top: 5px, right: 10px, bottom: 15px, left: 20px
+    Kiểm tra trên trình duyệt
 border:
     border-width
     border-style
