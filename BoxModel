@@ -20,8 +20,8 @@ border-style:
     double  (nét đôi)
     dotted  (nét chấm)
     dashed  (nét gạch)
-backround-image: url();
-backround-repeat:
+background-image: url();
+background-repeat:
     repeat (default)
     repeat-x
     repeat-y
