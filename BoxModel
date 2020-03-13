@@ -1,5 +1,5 @@
-block element: div, p, h1-h6
-inline element: các loại thẻ khác
+block element: html, body, div, p, h1-h6
+inline element: các thẻ còn lại
 box model:
     margin (khoảng cách bên ngoài)
     border (đường viền)
