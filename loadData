@@ -4,7 +4,7 @@ function loadData(request, targetId, sourceId){
         cache: false,
         success: function(data){
             let jsonData = {
-                data = data
+                data : data
             };
             let target = $(targetId);
             let source = $(sourceId).html();
