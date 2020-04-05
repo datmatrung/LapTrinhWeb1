@@ -1,0 +1,15 @@
+    <style type="text/css">
+        input:required:invalid, input:focus:invalid {
+            background-image: url(/images/invalid.png);
+            background-position: right top;
+            background-repeat: no-repeat;
+        }
+        input:required:valid, input:focus:valid {
+            background-image: url(/images/valid.png);
+            background-position: right top;
+            background-repeat: no-repeat;
+        }
+    </style>
+    
+    email: pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"
+    phone: pattern="\d{10,12}"
