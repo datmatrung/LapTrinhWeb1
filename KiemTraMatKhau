@@ -1,13 +1,6 @@
-<html>
-				<head>
-				<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-				<title>Ví dụ HTML</title>
-				</head>
-					<body>
-					<script type="text/javascript">  
 function matchpass(){  
 var firstpassword=document.f1.password.value;  
-var secondpassword=document.f1.password2.value;  
+var secondpassword=document.f1.confirm.value;  
   
 if(firstpassword==secondpassword){  
 return true;  
@@ -17,12 +10,11 @@ alert("password must be same!");
 return false;  
 }  
 }  
-</script>  
   
-<form name="f1" action="register.jsp" onsubmit="return matchpass()">  
-Password:<input type="password" name="password" /><br/>  
-Re-enter Password:<input type="password" name="password2"/><br/>  
-<input type="submit">  
-</form>  
-					</body>
-				</html>
+<form name="f1" onsubmit="return matchpass()">  
+	Password:
+		<input type="password" name="password" /><br/>  
+	Confirm:
+		<input type="password" name="confirm"/><br/>  
+		<input type="submit">  
+</form>
