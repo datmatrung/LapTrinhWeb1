@@ -1,5 +1,5 @@
 - Copy form ice-cream dán vào blog
-- Truyền id của blog vào form: data-blog-id="{{id}}
+- Truyền id của blog vào form: data-blog-id="{{id}}"
 - Thêm sự kiện: onsubmit="return addComment()"
 - Viết hàm addComment()
 - Vào https://web1-api.herokuapp.com/ để lấy code
