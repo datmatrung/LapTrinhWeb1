@@ -1,0 +1,29 @@
+<form method="POST" id="frm-comment">
+                <div class="row ">
+                    <div class="form-group col">
+                        <label for="name">Name (Required)</label>
+                        <input type="text" class="form-control form-control-sm " name="name" id="name" placeholder="" required>
+                    </div>
+                    <div class="form-group col">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control form-control-sm" name="email" id="email" placeholder="" required>
+                    </div>
+                    <div class="col"></div>
+                </div>
+                <div class="row">
+                    <div class="form-group col">
+                        <label for="comment"></label>
+                        <textarea class="form-control form-control-sm" name="comment" id="comment" rows="3" required></textarea>
+                    </div>
+                </div>
+                <div class="row m-0">
+                    <div class="form-check form-check-inline col">
+                        <label class="form-check-label">
+                            <input class="form-check-input" type="checkbox" name="agree" id="agree" value="false" required> Agree to Terms and Conditions
+                        </label>
+                    </div>
+                    <div class="col text-right">
+                        <button type="submit" class="btn btn-link btn-sm">Submit Comment</button>
+                    </div>
+                </div>
+            </form>
