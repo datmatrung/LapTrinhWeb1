@@ -1,0 +1,36 @@
+function addComment() {
+            let formData = {
+                name: $('#name').val(),
+                email: $('#email').val(),
+                comment: $('#comment').val(),
+                blogId: $('#frm-comment').data('blogId'),
+                agree: $('#agree').prop('checked')
+            };
+            $.ajax({
+                url: "https://web1-api.herokuapp.com/users/authenticate",
+                dataType: "json",
+                type: "POST",
+                data: {
+                    username: 'test',
+                    password: '1c3cr3@m'
+                },
+                success: function(r){
+                    $.ajax({
+                        url: "https://web1-api.herokuapp.com/users/comment",
+                        dataType: "json",
+                        type: "POST",
+                        headers: {
+                            "Authorization": 'Bearer ' + r.token
+                        },
+                        data: formData,
+                        success: function(r){
+                            loadDetails(formData.blogId);
+                        },
+                        error: function(xhr, status, error) {
+                            window.alert(error);
+                        }
+                    });
+                }
+            });
+            return false;
+        }
