@@ -1,0 +1,11 @@
+- Copy đoạn code phân trang trên source code html
+- Xóa nó đi và gắn thẻ div#blogs-pagination
+- Tạo script#blogs-pagination-template có type="text/x-handlebars-template"
+- Dán đoạn code phân trên ở trên vào script
+- Vào google search handlebars pagination helper
+- Tải file pagination.js dán vào thư mục js
+- Sửa file này lại: thêm api ở đầu vào, content thì thêm api: api
+- Nhúng file pagination.js vào source code
+- Làm theo hướng dẫn của handlebars pagination helper
+- Thêm api ở đầu vào
+- Cứ mỗi link trong thẻ <a> thêm onclick="loadBlogs('{{api}}', '{{page}}')"
