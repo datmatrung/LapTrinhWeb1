@@ -1,4 +1,4 @@
-- Copy form ice-cream dán vào blog
+- Tạo form gồm có name, email, textarea, checkbox, submit
 - Truyền id của blog vào form: data-blog-id="{{id}}"
 - Thêm sự kiện: onsubmit="return addComment()"
 - Viết hàm addComment()
