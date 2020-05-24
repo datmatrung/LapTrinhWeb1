@@ -3,7 +3,9 @@
 - Thêm sự kiện: onsubmit="return addComment()"
 - Viết hàm addComment()
 - Vào https://web1-api.herokuapp.com/ để lấy code
-- Viết ajax để lấy username và password từ authenticate
+- Viết ajax để nhập username và password vào authenticate
+    username: 'test',
+    password: '1c3cr3@m'
 - Nếu lấy thành công thì viết tiếp ajax để lấy comment
 - Tạo đối tượng formData{name, email, comment, blogId, agree}
 - Lấy dữ liệu từ form gán vào formData
