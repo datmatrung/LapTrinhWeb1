@@ -3,14 +3,18 @@
 - Thêm sự kiện: onsubmit="return addComment()"
 - Viết hàm addComment()
 - Vào https://web1-api.herokuapp.com/ để lấy code
-- Tạo đối tượng formData{name, email, comment, blogId, agree}
-- Lấy dữ liệu từ form gán vào formData
 - Viết ajax để lấy username và password từ authenticate
 - Nếu lấy thành công thì viết tiếp ajax để lấy comment
-- Nếu lấy thành công thì gọi hàm loadDetails:
-  success: function(r){
-    loadDetails(formData.blogId);
-  },
+- Tạo đối tượng formData{name, email, comment, blogId, agree}
+- Lấy dữ liệu từ form gán vào formData
+  formData = {
+    name: $('#name').val(),
+    email: $('#email').val(),
+    comment: $('#comment').val(),
+    blogId: $('#frm-comment').data('blogId'),
+    agree: $('#agree').prop('checked')
+  }
+- Nếu lấy comment thành công thì gọi hàm loadDetails(formData.blogId)
 - Nếu thất bại thì thông báo lỗi:
   error: function(xhr, status, error) {
     window.alert(error);
