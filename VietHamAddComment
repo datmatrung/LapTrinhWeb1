@@ -19,3 +19,4 @@
   error: function(xhr, status, error) {
     window.alert(error);
   }
+- Cuối cùng return false cho hàm addComment
