@@ -1,9 +1,14 @@
-Header: b4-$
+b4-$
 header.container-fluid.bg-primary
 div.container
 b4-navbar-default
 Sửa lại navbar-dark bg-primary
-.bg-primary {background-color: #F8A640 !important}
 Xóa form search
 Sửa ul class ml-auto để menu dịch sang phải
 Hệ thống link, xóa link dropdown, sửa lại logo Best Farm
+Tạo file style.css rồi nhúng bên dưới bootstrap.css
+css: .bg-primary {background-color: #F8A640 !important}
+
+footer.container-fluid.bg-dark.py-3
+div.container.text-white.text-center
+Copyright &copy; 2020 by Đạt Ma Trung
