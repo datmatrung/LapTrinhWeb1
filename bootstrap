@@ -1,0 +1,17 @@
+1. Containers:
+   .container
+   .container-fluid
+   .container-sm|md|lg|xl
+2. Padding:
+   .p-3
+   .pt-3
+   .pb-3
+3. Margin:
+   .ml-3
+   .mr-3
+   .my-3
+4. Column:
+   .col
+   .col-sm|md|lg|xl-3
+5. Heading:
+   .display-1|2|3|4
