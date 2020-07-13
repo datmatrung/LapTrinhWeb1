@@ -14,4 +14,15 @@
    .col
    .col-sm|md|lg|xl-3
 5. Heading:
+   <h1> - <h6>
    .display-1|2|3|4
+6. Tags:
+   <mark>
+   <abbr>
+   <blockquote>
+      .blockquote
+      .blockquote
+      .blockquote-footer in <footer>
+   <code>
+   <kbd>
+   <pre>
