@@ -26,3 +26,32 @@
    <code>
    <kbd>
    <pre>
+7. Color:
+   .text-muted|primary|success|info|warning|danger|secondary|white|dark|body|light
+   .bg-primary|success|info|warning|danger|secondary|dark|light
+   .text-black-50 (opacity)
+   .text-white-50
+8. Table:
+   .table
+   .table-striped
+   .table-bordered
+   .table-hover
+   .table-borderless
+   .table-primary|success|info|warning|danger|secondary|dark|light|active
+   .thead-dark|light
+   .table-sm
+   .table-responsive in <div>
+   .table-responsive-sm|md|lg|xl
+9. Image:
+   .rounded
+   .rounded-circle
+   .img-thumbnail
+   .float-right
+   .float-left
+   .mx-auto.d-block
+   .img-fluid
+10. Jumbotron:
+   .jumbotron in <div>
+   .jumbotron-fluid
+11. Alert:
+   .alert.alert-primary|success|info|warning|danger|secondary|dark|light
