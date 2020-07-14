@@ -55,3 +55,6 @@
    .jumbotron-fluid
 11. Alert:
    .alert.alert-primary|success|info|warning|danger|secondary|dark|light
+   .alert-link in <a>
+   .alert-dismissible in <div>
+   .close + data-dismiss="alert" in <button>
